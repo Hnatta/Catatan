@@ -1,8 +1,0 @@
-#!/bin/bash
-
-hgled -s
-clear
-wget -O /usr/bin/hg680p.sh https://raw.githubusercontent.com/chalyyzhu/LED_HG860P/main/hg680p.sh && chmod +x /usr/bin/hg680p.sh
-wget -O /usr/bin/hgled https://raw.githubusercontent.com/chalyyzhu/LED_HG860P/main/led_mod.sh && chmod +x /usr/bin/hgled
-hgled -r
-echo "[+] instalasi selesai..."
